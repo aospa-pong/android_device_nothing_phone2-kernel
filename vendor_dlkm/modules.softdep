@@ -6,7 +6,6 @@ softdep msm_kgsl pre: arm_smmu nvmem_qfprom
 softdep qmi_helpers pre: qrtr
 softdep msm_eva pre: msm-mmrm
 softdep plh_scmi pre: plh_vendor
-softdep msm_cvp pre: msm-mmrm
 softdep qsee_ipc_irq_bridge pre: qcom_ipcc
 softdep dwc3_msm pre: phy-generic phy-msm-snps-hs phy-msm-snps-eusb2 phy-msm-ssusb-qmp eud post: ucsi_glink
 softdep shared_rail_scmi pre: shared_rail_vendor
